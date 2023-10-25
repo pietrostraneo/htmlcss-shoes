@@ -33,19 +33,18 @@ header{
     background-color: yellow;
 }
 
-.numeri{
+a{
     border-radius: 100px;
     background-color: white;
     padding: 10px;
     margin: 0 15px;
     border: none;
-    width: 38px;
-}
-
-.numeri a{
+    width: 35px;
     text-decoration: none;
+    text-align: center;
     font-size: 15px;
     font-weight: bolder;
+    display: inline-block;
 }
 
 .scarpe{
