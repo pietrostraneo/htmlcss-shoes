@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Gordon W01 Black", sans-serif;
 }
 
 header{
@@ -47,9 +48,24 @@ header{
     font-weight: bolder;
 }
 
-img{
-    width: 30%;
+.scarpe{
     position: absolute;
     top: 50%;
-    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    color: yellow;
+    text-align: center;
+    font-size: 45px;
+}
+
+#converse h1{
+    color: green;
 }
